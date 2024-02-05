@@ -6,6 +6,7 @@ import compression from "compression";
 import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import router from "router";
 
 dotenv.config();
 
@@ -33,3 +34,5 @@ mongoose.connect(process.env.MONGODB_URI);
 mongoose.connection.on("error", (error: Error) => {
     console.log(error);
 });
+
+app.use("/", router());
