@@ -31,7 +31,7 @@ export const login = async (req: express.Request, res: express.Response) => {
 
         await user.save();
 
-        res.cookie("ICIKIWIR", user.authentication.sessionToken, {
+        res.cookie("ICIKIWIR-AUTH", user.authentication.sessionToken, {
             domain: "localhost",
             path: "/",
         });
