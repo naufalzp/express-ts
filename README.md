@@ -22,7 +22,7 @@ git clone https://github.com/naufalzp/express-ts.git
 npm i
 ```
 
-### Setup MongoDB URI
+### Setup MongoDB URI (.env)
 
 ```shell
 MONGODB_URI = // DB URI
