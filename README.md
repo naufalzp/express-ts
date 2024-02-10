@@ -7,8 +7,7 @@ Features:
 -   Controllers creation
 -   Middlewares creation
 -   Cookie based authentication
--   Postman testing
--   Create, Read, Update
+-   Create, Read, Update, Delete
 
 ### Cloning the repository
 
